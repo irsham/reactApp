@@ -1,0 +1,23 @@
+.characterCard {
+  padding: 10px;
+  background-color: rgb(243, 243, 245);
+  border-radius: 10px;
+  box-shadow: 3px 3px 25px -5px black;
+  color: black;
+  display: inline-block;
+  margin: 20px 15px;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.characterData {
+  padding: 0 15px 10px;
+}
+
+.card {width: 21.5%;}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 42.5%;
+  }
+}
